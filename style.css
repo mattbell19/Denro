@@ -1,0 +1,52 @@
+
+/* Table Formattting
+-----------------------------------------------------------------*/
+
+
+table {width: auto;  border:0px #ccc solid;}
+
+
+td {font-size: 12px; font-weight:  color:#000; padding:8px; border:6px #FFFFFF solid; text-align: center; background-color:#D2DBEA;}
+.indextable img{float:right; margin-left: 10px;}
+
+.gentable  { border-collapse: collapse;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+ }
+.gentable img {display: block; margin-left: auto;
+margin-right: auto; }
+
+.gentable th, .gentable td { padding: .6em; vertical-align:middle;}
+.gentable { border: 1px solid #333; }
+.gentable th {  border: 1px solid #666;  text-align: center; }
+.gentable td {  border: 1px dotted #666;  text-align: center; }
+.gentable th[scope=col]
+{
+  border-bottom: 2px solid #333;
+
+}
+
+.gentable th, .gentable td { color: #000; }
+
+.gentable th {background-color:#D2DBEA; text-align:center; font-weight:bold;}
+.gentable td {background-color:#fff; text-align:center;  }
+.gentable tr:hover th[scope=row], .gentable tr:hover td
+{ 
+  background-color: #f2f3f5;
+  color: #0000FF;
+} 
+
+
+#DenroShow {width: 650px; padding: 10px; clear:both; background-color:#D2DBEA; padding-left: 20px; }
+#DenroShow h2{
+	border-bottom: 1px #A3A3A3 solid;
+	font-size: 16px;
+	font-weight:bold;
+	margin-bottom:1em;
+	margin-top:1em;
+	color:#3A53A4;
+	margin-left:10px;
+
+}
+#DenroShow img {margin: 12px;  
+ border: 4px solid #b2bac8; }
